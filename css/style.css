@@ -326,6 +326,7 @@ label{
 
   .footer{
     display: block;
+    text-align: center;
   }
   .menu1{
     width:100vw;
@@ -347,8 +348,11 @@ label{
   .slideshow{
     display: block;
   }
+  .wrap6{
+    text-align: center;
+  }
   .customer{
-    width:70vw;
+    width:100vw;
   }
   .customer img{
     height:30vw;
@@ -473,7 +477,8 @@ label{
     display: inline-block;
   }
   .customer{
-    width:90vw;
+    width:70vw;
+    padding:20px;
   }
   .customer img{
     height:30vw;

@@ -231,9 +231,10 @@ header{
   line-height: 7vw;
 }
 .form{
-  width:50vw;
+  width:30vw;
   padding: 20px;
-  margin-left: 25vw;
+  margin-left: 35vw;
+  margin-right:35vw;
 }
 
 input[type=text] {
@@ -265,15 +266,20 @@ input[type=submit]:hover {
 label{
   color: white;
 }
-
 .slideshow{
-  display: flex;
-  margin: 50px;
+  margin-top:10vh;
+  margin-bottom:10vh;
+  margin-left:1vw;
 }
 .customer{
-  width:20vw;
+  display:inline-flex;
+  margin:3vw;
 }
-.customer img{
+
+.customer_image{
+  display: flex;
+}
+.customer_image img{
   height:10vw;
   width:10vw;
   border: 1px solid black;
@@ -281,8 +287,8 @@ label{
 }
 .customer_text{
   color:black;
-  font-size: 15px;
-  text-align: center;
+  display:flex;
+  padding:1vw;
 }
 
 .wrap7{
@@ -345,29 +351,33 @@ label{
   .form{
     width:70vw;
   }
-  .slideshow{
-    display: block;
-  }
   .wrap6{
     text-align: center;
   }
   .customer{
-    width:100vw;
+    display:inline-flex;
+    margin:0vw;
   }
-  .customer img{
-    height:30vw;
-    width:30vw;
+
+  .customer_image{
+    display: flex;
+  }
+  .customer_image img{
+    height:10vw;
+    width:50vw;
     border: 1px solid black;
     border-radius: 50%;
   }
   .customer_text{
     color:black;
-    font-size: 15px;
-    padding: 10px;
-    margin-right: 10px;
+    display:flex;
+    padding:1vw;
   }
   .form{
-    margin-left: 5px;
+    width:70vw;
+    padding: 20px;
+    margin-left: 15vw;
+    margin-right:3vw;
   }
 
   .complete_navbar.alt{
@@ -472,26 +482,40 @@ label{
   transform: rotate(45deg) translate(-5px,-6px);
   }
 
-
-  .slideshow{
-    display: inline-block;
+  .form{
+    width:40vw;
+    padding: 20px;
+    margin-left: 30vw;
+    margin-right:30vw;
   }
   .customer{
-    width:70vw;
-    padding:20px;
+    display:inline-flex;
+    margin:1vw;
   }
-  .customer img{
-    height:30vw;
-    width:30vw;
+
+  .customer_image{
+    display: flex;
+  }
+  .customer_image img{
+    height:20vw;
+    width:20vw;
     border: 1px solid black;
     border-radius: 50%;
   }
   .customer_text{
     color:black;
-    font-size: 15px;
-    /* text-align: center; */
+    display:flex;
+    padding:1vw;
   }
   *{
     overflow-x: hidden;
   }
  }
+ @media screen and (max-width: 650px) {
+   .form{
+     width:60vw;
+     padding: 20px;
+     margin-left: 10vw;
+     margin-right:20vw;
+   }
+}

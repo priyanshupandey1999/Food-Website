@@ -1,6 +1,5 @@
 # Food-Website
-This is a website created using html,css and javascript.
+✨ Tools used - HTML,CSS,Javascript
 
 
-You can view the wevsite here
 ## https://foodler.netlify.app/
